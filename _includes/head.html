@@ -8,24 +8,7 @@
     <meta name="theme-color" content="{{ site.chrome-tab-theme-color }}">
     
     <title>{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}</title>
-    <!-- <!-- Link Gitalk 的支持文件  -->
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-    <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
-    <div id="gitalk-container"></div>     <script type="text/javascript">
-        var gitalk = new Gitalk({
-
-        // gitalk的主要参数
-            clientID: 'a6cf323a741460e96e9f',
-            clientSecret: '6f7c3c5870163ecb1c5f6d7746f8f88b42dc0164',
-            repo: 'loooo139.github.io',
-            owner: 'loooo139',
-            admin: ['loooo139'],
-            id:window.location.pathname,
-
-        });
-        gitalk.render('gitalk-container');
-    </script> 
-    <!-- Gitalk end --> -->
+  
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="{{ site.baseurl }}/pwa/manifest.json">
