@@ -9,7 +9,7 @@ catalog: true
 tags:
     - LSTM
     - RNN
-    -pytorch
+    - pytorch
     - deep learning
 ---
 > 原文地址 http://karpathy.github.io/2015/05/21/rnn-effectiveness/
