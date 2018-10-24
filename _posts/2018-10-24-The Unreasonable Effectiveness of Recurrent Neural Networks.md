@@ -8,6 +8,8 @@ header-img: img/post-bg-ios8-web.jpg
 catalog: true
 tags:
     - LSTM
+    - RNN
+    -pytorch
     - deep learning
 ---
 > 原文地址 http://karpathy.github.io/2015/05/21/rnn-effectiveness/
